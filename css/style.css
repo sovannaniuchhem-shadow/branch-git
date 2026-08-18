@@ -1,0 +1,106 @@
+/* home.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+header {
+    background: #0b1f3a;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #4da3ff;
+}
+
+.hero {
+    height: 500px;
+    background: #102d52;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero a {
+    background: #1683ff;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 5px;
+}
+
+.welcome {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.welcome h2 {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.card h3 {
+    color: #0b1f3a;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #0b1f3a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
